@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "830787228544",
+    "project_id": "skillpay-project",
+    "storage_bucket": "skillpay-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830787228544:android:c528b798462c079bdae765",
+        "android_client_info": {
+          "package_name": "com.skillPay.first"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830787228544-v0midadliacgfat9p7s45vc1mtiksbis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrL9j2lYW0fSlvqtD3tOSH9RZXvqZOY1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830787228544-v0midadliacgfat9p7s45vc1mtiksbis.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "830787228544-g6ggfe1rug5ldio40eeomc65lsp419d7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.skillPay.first"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
