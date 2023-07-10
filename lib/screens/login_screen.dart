@@ -169,11 +169,11 @@ class _LoginScreenState extends State<LoginScreen> {
       if (response.statusCode == 200) {
         Map<String, dynamic> parsedResponse = jsonDecode(response.body);
         Storage.saveToken(parsedResponse['Auth']);
-        Navigator.push(
-            context,
-            MaterialPageRoute(
-                builder: (context) =>
-                    HomeScreen()));
+        // Navigator.push(
+        //     context,
+        //     MaterialPageRoute(
+        //         builder: (context) =>
+        //             HomeScreen()));
         print('Authorized with token ${parsedResponse['Auth']}');
       } else {
         print('Request failed with status: ${response.statusCode}.');

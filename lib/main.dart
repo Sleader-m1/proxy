@@ -2,14 +2,14 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'firebase_options.dart';
-import 'package:system_network_proxy/system_network_proxy.dart';
+// import 'package:system_network_proxy/system_network_proxy.dart';
 
 import 'package:first/screens/login_screen.dart';
 
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  SystemNetworkProxy.init();
+  // SystemNetworkProxy.init();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.android,
   );

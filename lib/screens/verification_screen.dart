@@ -120,11 +120,11 @@ class _VerifScreenState extends State<VerifScreen> {
 
       if (response.statusCode == 200) {
         print('Account verified');
-        Navigator.push(
-            context,
-            MaterialPageRoute(
-                builder: (context) =>
-                    HomeScreen()));
+        // Navigator.push(
+        //     context,
+        //     MaterialPageRoute(
+        //         builder: (context) =>
+        //             HomeScreen()));
       } else {
         print('Request failed with status: ${response.statusCode}.');
       }
